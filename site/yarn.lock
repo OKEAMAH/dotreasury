@@ -1710,7 +1710,7 @@ __metadata:
     react-dom: ^18.2.0
     react-markdown: ^5.0.3
     react-redux: ^7.2.2
-    react-router: ^5.2.0
+    react-router: ^6.23.0
     react-router-dom: ^5.2.0
     react-slider: ^2.0.6
     redux: ^4.0.5
@@ -2828,6 +2828,13 @@ __metadata:
     react-redux:
       optional: true
   checksum: 41d7eb5025aa09fde7c3eb7da41d479fa71c5ae281f3456c4b7548242b148f94c70cdea0ba10f6182ca997cd5592406bb89ab2e53a33b3265fdbeb36652801b6
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.16.1":
+  version: 1.16.1
+  resolution: "@remix-run/router@npm:1.16.1"
+  checksum: 69068815832b30d2a5c063ac1c75365c45cf5b484dab65e1b3129fdbb3c2a7b866401733f766e550dbca1eaf0b84bc772a9c55310f4dd21eb53e62eb1b4625d0
   languageName: node
   linkType: hard
 
@@ -7322,7 +7329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:5.3.4, react-router@npm:^5.2.0":
+"react-router@npm:5.3.4":
   version: 5.3.4
   resolution: "react-router@npm:5.3.4"
   dependencies:
@@ -7338,6 +7345,17 @@ __metadata:
   peerDependencies:
     react: ">=15"
   checksum: 892d4e274a23bf4f39abc2efca54472fb646d3aed4b584020cf49654d2f50d09a2bacebe7c92b4ec7cb8925077376dfcd0664bad6442a73604397cefec9f01f9
+  languageName: node
+  linkType: hard
+
+"react-router@npm:^6.23.0":
+  version: 6.23.1
+  resolution: "react-router@npm:6.23.1"
+  dependencies:
+    "@remix-run/router": 1.16.1
+  peerDependencies:
+    react: ">=16.8"
+  checksum: d5d43ccb908a95d2b7345f2a13315c38bf094e25bcf97d5a6c3f353b1ea88602de15726c3570cd7f07c53b19a3519af2b6739bf6929ec355012795611d739cff
   languageName: node
   linkType: hard
 
