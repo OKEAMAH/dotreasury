@@ -21,7 +21,7 @@
     "pinst": "^2.1.6"
   },
   "dependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^3.2.5"
   },
   "packageManager": "yarn@3.5.0"
 }
